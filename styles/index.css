@@ -1,0 +1,44 @@
+
+.flex-box-one {
+    display: flex;
+    height: 100vh;
+    
+    background-color: #370617;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+    border: none;
+    color: #370617;
+    position: relative;
+    width: 100%;
+    min height: 50%;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: ;
+    gap:20px;
+}
+
+
+.card {
+    background-color: rgba(244, 140, 6, 1);
+    border: none;
+    border-radius: 5px;
+    max-width: 468px;
+    min-height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+
+}
+
+.flex-box-two {
+    background-color: #FAA307;
+    width: 100%;
+    margin-top: 10px;
+}
