@@ -104,10 +104,24 @@
 .circle-card {
     width: 200px;
     height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
    
-    
 }
  
 .first, .second, .third, .fourth, .fifth {
     background-color: #03071E;
+
+}
+
+.second, .fourth {
+    background-color: #6A040F;
+}
+
+.circle {
+    background: #748CAB;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
