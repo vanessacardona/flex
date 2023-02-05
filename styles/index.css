@@ -107,11 +107,14 @@
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+    
    
 }
  
 .first, .second, .third, .fourth, .fifth {
     background-color: #03071E;
+  
 
 }
 
@@ -124,4 +127,25 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
+}
+
+.second {
+    justify-content: end;
+    flex-wrap: wrap-reverse;
+}
+
+.third {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourth {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth {
+    justify-content: center;
+    align-items: center;
+    row-gap: 2px;
 }
